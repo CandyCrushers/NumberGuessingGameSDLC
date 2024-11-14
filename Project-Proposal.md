@@ -1,76 +1,39 @@
-Project Proposal: [Game Name]
+# Project Proposal: Number Guessing Game [Numble]
 
-Team Members: [Your Team Members' Names]
-Client: [The “client” can be the instructor or your own team if you are designing the game yourselves]
-Date: [Insert Date]
+**Team Members**: Adam & Calvin
+**Client**: Ms. Kennedy
+**Date**: 11/14/2024
 
+---
 
+### 1. App Idea
 
-1. App Idea
-Describe your game idea in a few sentences. What is the overall concept of your game?
-Example: Our game is a puzzle platformer where players solve challenges to progress through levels. The main character collects items to unlock new areas, avoid enemies, and discover secrets.
+The number guessing game or, "Numble" is a game based off the popular New York Times games wordle. Users will be able to guess numbers in a Wordle type of way.
+Each wrong number they will be getting a clue of some sort. The game is a timed or non timed game each user is timed on how long it takes just like Wordle. 
+Clues given help the user along the way. Users can verse other players in a 1v1 type of format. 
 
-2. Target Audience
-Who is this game designed for? Be specific—age group, gaming experience, and interests.
-Example: This game is aimed at teens (ages 12-18) who enjoy strategy and puzzle games. It will appeal to players who like problem-solving and adventure-based gameplay.
+### 2. Target Audience
 
-3. Goals and Vision
-What are the client’s goals for the game? What do they want to achieve with this project?
-Example: The goal is to create an engaging, fun game that challenges players but is still accessible for beginners. The game will have unique levels that increase in difficulty and provide hours of entertainment.
+This game can appeal to different types of auidence. The recomended target would be from the ages of 10 and up. This game is specifically targeted for people who like numbers / math, and like guessing games. This game is not for the complicated and can be played by anyone with no real language barriers besides in game text. 
 
+### 3. Goals and Vision
 
+The goal is to make a enganging game that anyone can play and have fun with free of charge. 
 
-4. Key Features
-List out the main features of your game. What will the game do? Include both gameplay features and any technical requirements.
-Example:
-	•	Single-player mode with multiple levels.
-	•	Puzzle mechanics that challenge the player to think creatively.
-	•	Power-ups that give the player special abilities for a limited time.
-	•	Enemies that the player must avoid or defeat.
-	•	Progress tracking so players can save and continue their game.
+### 4. Key Features
 
-5. Success Criteria
-What does success look like for this project? How will you know if the game is a hit?
-Example: The game will be considered successful if it is playable without major bugs, enjoyable for the target audience, and provides a sense of challenge and accomplishment.
+List out the main features of your game. What will the game do? Include both gameplay features and any technical requirements.  
+*List*:
+- Single-player mode along with a multiplayer mode for one versus one. 
+- Puzzle with numbers that you have to guess in order to move on.
+- Progess tracker that tracks how fast a user gets a number 
+- Different types of levels with multiple of hints to help a user get to their corret number
 
+### 5. Success Criteria
 
+This game will be made a success when all of the features or up to a stable enviorment and can be used and can be worked on. Along with having a stable enviorment to push and 
+update the game when needed. 
 
-6. Technical Requirements
-List any specific technical needs for your game, like the platform it will run on (e.g., PC, mobile, console), controls, or performance requirements.
-Example: The game will be developed for PC and should run smoothly at 60 frames per second. It will require keyboard and mouse controls, and there should be an option to save progress at the end of each level.
-This proposal will help guide your team as you design and develop the game. Make sure to update it as you get more ideas or if the client has additional requests.
+### 6. Technical Requirements
 
-Example Project Proposal for Power-Up Tetris Mayhem
-Team Members: Palas Kennedy, Charli Pape, Jen Johnson
-Client: Mr. Middleton
-Date: November 14, 2024
-
-1. App Idea
-Our game is a remixed version of Tetris called Power-Up Tetris Mayhem. The goal is still to clear lines by placing falling blocks, but now, players will also face new challenges. We’re adding power-ups that will allow players to alter the game rules—such as speeding up or slowing down falling blocks, or removing obstacles on the grid. In addition, we’ll introduce obstacle blocks, which will randomly appear and cannot be cleared, forcing players to adjust their strategy.
-
-2. Target Audience
-This game is designed for gamers ages 12-18 who love fast-paced puzzle games but want something extra. It will appeal to players who enjoy quick thinking, solving puzzles, and those who appreciate a challenge that keeps evolving. Fans of classic Tetris but wanting more action-packed gameplay will love this remix.
-
-3. Goals and Vision
-The goal is to keep the essence of Tetris while adding exciting mechanics to increase replay value and complexity. Power-ups and obstacles will create unexpected situations, requiring players to adapt quickly and plan strategically. Our vision is for a game that remains easy to pick up but gets progressively more difficult, keeping players engaged as they learn to use power-ups wisely.
-
-4. Key Features
-	•	Power-ups: Special blocks that trigger actions like clearing an entire row or freezing the falling blocks for a few seconds.
-	•	Obstacle blocks: Unmovable blocks that appear at random and make fitting pieces together harder.
-	•	Endless single-player mode with progressively challenging levels.
-	•	Score tracking to encourage competition with others.
-	•	Space-themed graphics with vibrant colors and fun sound effects to enhance the experience.
-
-5. Success Criteria
-This game will be considered a success if:
-	•	The game is playable with no major bugs, and the mechanics function as intended.
-	•	The addition of power-ups and obstacles adds depth and excitement, making the game more engaging.
-	•	Players experience a steady increase in difficulty as they progress, providing challenge and a sense of accomplishment.
-	•	The overall experience is fun, offering enough challenge and novelty to keep players coming back for more.
-
-6. Technical Requirements
-	•	The game will run on PC with keyboard controls: arrow keys for movement and spacebar to rotate blocks.
-	•	The game must maintain a smooth 60 FPS for seamless play.
-	•	Save progress functionality to allow players to pause, save, and resume at any point.
-	•	Efficient use of memory for smooth graphics and animations, especially as the grid fills with obstacle blocks and power-ups.
-
+Some technical skills for the game would need it has to run on mobile and on all platforms so IOS, Andriod, Google, and motoroala. It also should be capatiable with most PC's and operating systems. 
