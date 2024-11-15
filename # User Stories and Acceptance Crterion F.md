@@ -8,4 +8,4 @@ As someone who wants something to pass the time I want a middle ground between q
 
 As someone who wants to be in the leaderboards I want the game to go for a long time so I can make an impressive score. This means the game should be able to count high enough that the scores are impressive and arent easily cheated.
 
-As someone who wants to mess around with friends I want the game to have properly integrated multiplayer elements that make the game for fun with friends. This means that the game should be able to stably run with mulitple people.
+As someone who wants to mess around with friends I want the game to have properly integrated multiplayer elements that make the game for fun with friends. This means that the game should be able to stably run with multiple people.
