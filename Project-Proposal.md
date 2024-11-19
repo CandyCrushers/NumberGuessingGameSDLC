@@ -1,39 +1,53 @@
-# Project Proposal: Number Guessing Game [Numble]
+# Project Proposal: Number Guessing Game ("Numble")
 
-**Team Members**: Adam & Calvin
-**Client**: Ms. Kennedy
-**Date**: 11/14/2024
+**Team Members**: Adam & Calvin  
+**Client**: Ms. Kennedy  
+**Date**: 11/14/2024  
 
 ---
 
 ### 1. App Idea
 
-The number guessing game or, "Numble" is a game based off the popular New York Times games wordle. Users will be able to guess numbers in a Wordle type of way.
-Each wrong number they will be getting a clue of some sort. The game is a timed or non timed game each user is timed on how long it takes just like Wordle. 
-Clues given help the user along the way. Users can verse other players in a 1v1 type of format. 
+The number guessing game, "Numble," is inspired by the popular New York Times game, Wordle. Players will guess numbers in a Wordle-like manner. For each incorrect guess, players will receive a clue to guide them. The game offers both timed and non-timed modes, where users can see how long it takes to solve the puzzle, similar to Wordle. Additionally, players can challenge each other in a 1v1 format.
+
+---
 
 ### 2. Target Audience
 
-This game can appeal to different types of auidence. The recomended target would be from the ages of 10 and up. This game is specifically targeted for people who like numbers / math, and like guessing games. This game is not for the complicated and can be played by anyone with no real language barriers besides in game text. 
+This game appeals to a diverse audience, with a recommended age group of 10 and up. It is specifically designed for people who enjoy numbers, math, and guessing games. The simplicity of the game ensures it is accessible to all, with no significant language barriers apart from in-game text.
+
+---
 
 ### 3. Goals and Vision
 
-The goal is to make a enganging game that anyone can play and have fun with free of charge. 
+The goal is to create an engaging, fun, and accessible game that anyone can enjoy free of charge.
+
+---
 
 ### 4. Key Features
 
-List out the main features of your game. What will the game do? Include both gameplay features and any technical requirements.  
-*List*:
-- Single-player mode along with a multiplayer mode for one versus one. 
-- Puzzle with numbers that you have to guess in order to move on.
-- Progess tracker that tracks how fast a user gets a number 
-- Different types of levels with multiple of hints to help a user get to their corret number
+The game will include the following features:
+
+- Single-player mode alongside a multiplayer mode for 1v1 challenges.  
+- Number-based puzzles that players must solve to progress.  
+- A progress tracker that records how quickly a user guesses the correct number.  
+- Multiple levels with a variety of hints to assist users in finding the correct number.
+
+---
 
 ### 5. Success Criteria
 
-This game will be made a success when all of the features or up to a stable enviorment and can be used and can be worked on. Along with having a stable enviorment to push and 
-update the game when needed. 
+The game will be considered a success when:
+
+- All features are implemented and stable.  
+- The game operates in a reliable environment that allows for updates and bug fixes as needed.  
+
+---
 
 ### 6. Technical Requirements
 
-Some technical skills for the game would need it has to run on mobile and on all platforms so IOS, Andriod, Google, and motoroala. It also should be capatiable with most PC's and operating systems. 
+The game must meet the following technical requirements:
+
+- Compatibility with mobile devices on iOS, Android, Google, and Motorola platforms.  
+- Compatibility with most PCs and operating systems.  
+- A responsive design that ensures smooth performance across all devices.  
