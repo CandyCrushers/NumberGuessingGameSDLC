@@ -2,118 +2,127 @@
 
 ## Start of Game
 
-### Process:
-1. Display welcome message: **"Welcome to Numble!"**
-2. Display game options:
-   - **1.** Play Single-Player
-   - **2.** Play Multiplayer Mode
-   - **3.** View Leaderboard
-3. **Option Prompt**:
-   - If user picks option **1**:
-     - Call the `singleplayer()` function.
-   - Else if user picks option **2**:
-     - Call the `multiplayer()` function.
-   - Else:
-     - Call the `leaderboard()` function.
+Display "Welcome to Numble!"
+Display options:
+    1. Play Single-Player
+    2. Play Multiplayer Mode
+    3. View Leaderboard
+
+Prompt user to select an option.
+if option == 1:
+    call singleplayer()
+elif option == 2:
+    call multiplayer()
+else:
+    call leaderboard()
 
 ---
 
 ## Singleplayer
 
-### `singleplayer()`
+singleplayer():
+    Display "Singleplayer Rules: Guess the number between 1 and 100."
+    hidden_number = random number between 1 and 100
+    attempts = 0
+    Start game stopwatch
 
-#### Process:
-1. Display singleplayer rules for how to play.
-2. Set `hidden_number = random number between 1 and 100`.
-3. Initialize `attempts = 0`.
-4. Start the game stopwatch.
-
-#### Gameplay Loop:
-- **While the player has not guessed correctly**:
-  1. Prompt user: **"Enter your guess."**
-  2. Increment `attempts` by 1.
-  3. Check the guess:
-     - If `player_guess < hidden_number`:
-       - Display: **"Too low! Try a higher number."**
-     - Else if `player_guess > hidden_number`:
-       - Display: **"Too high! Try a lower number."**
-     - Else:
-       - Display: **"Congratulations! You guessed correctly."**
-       - Stop the game stopwatch.
-       - Record the player's attempts and time.
-       - Update the leaderboard.
-       - Display options:
-         - **"Return to main menu, try again, or join multiplayer."**
-         - If the user selects **"try again"**:
-           - Restart the game.
-         - Else if the user selects **"main menu"**:
-           - Return to the main menu.
-         - Else:
-           - Join multiplayer server.
+    while player has not guessed correctly:
+        Display "Enter your guess:"
+        player_guess = input
+        attempts += 1
+        if player_guess < hidden_number:
+            Display "Too low! Try a higher number."
+        elif player_guess > hidden_number:
+            Display "Too high! Try a lower number."
+        else:
+            Display "Congratulations! You guessed correctly!"
+            Stop game stopwatch
+            Record attempts and time
+            Update leaderboard
+            Display options:
+                1. Return to Main Menu
+                2. Try Again
+                3. Join Multiplayer
+            if option == 2:
+                Restart game
+            elif option == 1:
+                Return to Main Menu
+            else:
+                Join Multiplayer
 
 ---
 
 ## Multiplayer
 
-### `multiplayer()`
+multiplayer():
+    Display "Multiplayer Rules: Guess the hidden number before your opponent."
+    Set up hidden grid of numbers
+    Wait for Player 1 and Player 2 to connect
+    Initialize Player 1 and Player 2 in the server
+    Player 1 attempts = 0
+    Player 2 attempts = 0
+    hidden_number = random number between 1 and 100
 
-#### Process:
-1. Display multiplayer rules for how to play.
-2. Set the grid of hidden numbers.
-3. Wait for **Player 1** and **Player 2** to connect.
-4. Once both players are connected:
-   - Initialize Player 1 in the server.
-   - Initialize Player 2 in the server.
-   - Initialize `Player 1's attempts = 0`.
-   - Initialize `Player 2's attempts = 0`.
-   - Set `hidden_number = random number between 1 and 100`.
+    Randomly select first player
 
-#### Gameplay Loop:
-- Randomly select which player goes first.
-- **While the game is active (10 rounds total)**:
-  1. **If it is Player 1's turn**:
-     - Prompt Player 1: **"Enter your guess."**
-     - Check the guess:
-       - If correct:
-         - Award 1 point to Player 1.
-         - Announce: **"Correct guess! Player 1 scores a point!"**
-         - Generate a new hidden number for the next round.
-       - Else:
-         - Announce: **"Wrong guess! No points awarded."**
-         - Display a hint (e.g., **"Too low"** or **"Too high"**).
-  2. **If it is Player 2's turn**:
-     - Prompt Player 2: **"Enter your guess."**
-     - Check the guess:
-       - If correct:
-         - Award 1 point to Player 2.
-         - Announce: **"Correct guess! Player 2 scores a point!"**
-         - Generate a new hidden number for the next round.
-       - Else:
-         - Announce: **"Wrong guess! No points awarded."**
-         - Display a hint (e.g., **"Too low"** or **"Too high"**).
+    while rounds < 10:
+        if current_turn == Player 1:
+            Display "Player 1, enter your guess:"
+            player_guess = input
+            if player_guess == hidden_number:
+                Award 1 point to Player 1
+                Display "Player 1 guessed correctly and scores a point!"
+                Generate new hidden_number
+            else:
+                Display "Incorrect guess. No points awarded."
+                Display hint ("Too low" or "Too high")
+            Switch turn to Player 2
 
-#### End of Game:
-1. **After 10 rounds**:
-   - Compare `Player 1's score` and `Player 2's score`.
-   - Announce the winner:
-     - **"Player X wins!"** or **"It's a tie!"** if scores are equal.
-2. Offer options:
-   - **"Play again or return to the main menu."**
-   - If **"play again"** is selected:
-     - Restart multiplayer mode.
-   - Else:
-     - Return to the main menu.
+        else:
+            Display "Player 2, enter your guess:"
+            player_guess = input
+            if player_guess == hidden_number:
+                Award 1 point to Player 2
+                Display "Player 2 guessed correctly and scores a point!"
+                Generate new hidden_number
+            else:
+                Display "Incorrect guess. No points awarded."
+                Display hint ("Too low" or "Too high")
+            Switch turn to Player 1
+
+    Compare scores:
+        if Player 1 score > Player 2 score:
+            Display "Player 1 wins!"
+        elif Player 2 score > Player 1 score:
+            Display "Player 2 wins!"
+        else:
+            Display "It's a tie!"
+
+    Display options:
+        1. Play Again
+        2. Return to Main Menu
+    if option == 1:
+        Restart multiplayer()
+    else:
+        Return to Main Menu
 
 ---
 
 ## Leaderboard
 
-### `leaderboard()`
+leaderboard():
+    Display "====== LEADERBOARD ======"
+    Display "Rank | Player Name | Score | Time Taken"
 
-#### Data Structure:
-```plaintext
-leaderboard_data = [
-    {"Player Name": "Alice", "Score": 15, "Time": "2:35"},
-    {"Player Name": "Bob", "Score": 10, "Time": "3:10"},
-    {"Player Name": "Charlie", "Score": 5, "Time": "5:00"}
-]
+    Sort leaderboard_data by Score in descending order
+    for player in leaderboard_data:
+        Display rank, player["Name"], player["Score"], player["Time"]
+
+    Display options:
+        1. Return to Main Menu
+        2. Reset Leaderboard
+    if option == 2:
+        leaderboard_data = []
+        Display "Leaderboard reset successfully."
+    else:
+        Return to Main Menu
